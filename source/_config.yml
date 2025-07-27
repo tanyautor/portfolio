@@ -4,3 +4,6 @@ collections:
     output: true
 title: "Portfolio"
 description: Some description
+base:
+  name: Tanya Helmers
+  descriptor: 2nd Year CMGT Student

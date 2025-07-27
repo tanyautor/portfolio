@@ -15,16 +15,14 @@
     <header class="page-header" role="banner">
       <h1 style="color: white;" class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 style="color: white;">
-        <a class="author" href="mailto: {{ site.student.number }}.buas.nl">{{ site.student.name }}</a>
+        <a class="author" href="mailto: ole@helmersweb.de">{{ site.base.name }}</a>
       </h2>
-      <h2 style="color: white;">{{ site.student.number }}</h2>
+      <h2 style="color: white;">{{ site.base.descriptor }}</h2>
       <a href="/" class="btn"> 🏠 </a>
 
       {% for article in site.articles %}
         <a href="{{ article.url }}" class="btn"> {{ article.preview_title }}</a>
       {% endfor %}
-      
-      <a href="/retake.html" class="btn">🔁 Retake</a>
     </header>
 
     <div class="site-name">
