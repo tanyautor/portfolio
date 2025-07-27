@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+collections:
+  articles:
+    output: true
+title: "Portfolio"
+description: Some description
